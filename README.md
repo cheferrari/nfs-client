@@ -1,6 +1,7 @@
 # nfs-client
 refers to https://github.com/kubernetes-incubator/external-storage/tree/master/nfs-client  
 ## 1.Install NFS server
+every node should install the nfs-utils
 ```shell
 yum install -y nfs-utils
 ```
